@@ -9,7 +9,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 bg-background border-b border-border">
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="text-2xl font-bold text-primary">LUXE</div>
+        <div className="text-2xl font-bold text-primary">EVEREST</div>
 
         <nav className="hidden md:flex gap-8">
           <a href="#features" className="text-foreground hover:text-primary transition">
