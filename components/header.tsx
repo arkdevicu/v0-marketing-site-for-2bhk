@@ -15,14 +15,11 @@ export function Header() {
           <a href="#features" className="text-foreground hover:text-primary transition">
             Features
           </a>
-          <a href="#gallery" className="text-foreground hover:text-primary transition">
-            Gallery
-          </a>
           <a href="#amenities" className="text-foreground hover:text-primary transition">
             Amenities
           </a>
-          <a href="#contact" className="text-foreground hover:text-primary transition">
-            Contact
+          <a href="#floor-plan" className="text-foreground hover:text-primary transition">
+            Floor Plan
           </a>
         </nav>
 
@@ -37,14 +34,11 @@ export function Header() {
             <a href="#features" className="text-foreground hover:text-primary transition">
               Features
             </a>
-            <a href="#gallery" className="text-foreground hover:text-primary transition">
-              Gallery
-            </a>
             <a href="#amenities" className="text-foreground hover:text-primary transition">
               Amenities
             </a>
-            <a href="#contact" className="text-foreground hover:text-primary transition">
-              Contact
+            <a href="#floor-plan" className="text-foreground hover:text-primary transition">
+              Floor Plan
             </a>
           </div>
         </nav>
