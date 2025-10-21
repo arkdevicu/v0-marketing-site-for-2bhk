@@ -2,7 +2,6 @@ import { Header } from "@/components/header"
 import { Hero } from "@/components/hero"
 import { Features } from "@/components/features"
 import { Amenities } from "@/components/amenities"
-import { FloorPlan } from "@/components/floor-plan"
 import { Footer } from "@/components/footer"
 
 export default function Home() {
@@ -12,7 +11,6 @@ export default function Home() {
       <Hero />
       <Features />
       <Amenities />
-      <FloorPlan />
       <Footer />
     </main>
   )
