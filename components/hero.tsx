@@ -1,14 +1,21 @@
 export function Hero() {
   return (
     <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-accent/10" />
+      <div className="absolute inset-0">
+        <img
+          src="/everest-2bhk-exterior.png"
+          alt="Everest 2BHK Luxury Apartments"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/40" />
+      </div>
 
       <div className="relative max-w-6xl mx-auto px-4 py-20 md:py-32 grid md:grid-cols-2 gap-8 items-center">
         <div className="space-y-6 text-balance">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
             Modern Living Redefined
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+          <p className="text-lg md:text-xl text-gray-100 leading-relaxed">
             Experience luxury and comfort in our thoughtfully designed 2BHK apartments. Perfect for families and
             professionals seeking contemporary urban living.
           </p>
