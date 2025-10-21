@@ -5,6 +5,7 @@ import { Features } from "@/components/features"
 import { Amenities } from "@/components/amenities"
 import { Footer } from "@/components/footer"
 import { FloorPlan } from "@/components/floor-plan"
+import { PremiumCharges } from "@/components/premium-charges"
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <ProjectOverview />
       <Features />
+      <PremiumCharges />
       <Amenities />
       <FloorPlan />
       <Footer />
