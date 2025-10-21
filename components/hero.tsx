@@ -7,7 +7,7 @@ export function Hero() {
           alt="Everest 2BHK Luxury Apartments"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-black/35" />
+        <div className="absolute inset-0 bg-black/25" />
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 text-center space-y-6">
