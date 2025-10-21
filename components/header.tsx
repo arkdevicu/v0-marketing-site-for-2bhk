@@ -1,7 +1,6 @@
 "use client"
 
 import { useState } from "react"
-import { Menu, X } from "lucide-react"
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -33,7 +32,15 @@ export function Header() {
         </nav>
 
         <button onClick={() => setIsOpen(!isOpen)} className="md:hidden p-2 hover:bg-secondary rounded-lg transition">
-          {isOpen ? <X size={24} /> : <Menu size={24} />}
+          <div className="w-6 h-5 flex flex-col justify-between">
+            <span
+              className={`h-0.5 w-full bg-foreground transition-all ${isOpen ? "rotate-45 translate-y-2" : ""}`}
+            ></span>
+            <span className={`h-0.5 w-full bg-foreground transition-all ${isOpen ? "opacity-0" : ""}`}></span>
+            <span
+              className={`h-0.5 w-full bg-foreground transition-all ${isOpen ? "-rotate-45 -translate-y-2" : ""}`}
+            ></span>
+          </div>
         </button>
       </div>
 
