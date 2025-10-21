@@ -12,14 +12,6 @@ export function Hero() {
             Experience luxury and comfort in our thoughtfully designed 2BHK apartments. Perfect for families and
             professionals seeking contemporary urban living.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <button className="px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition">
-              Schedule Tour
-            </button>
-            <button className="px-8 py-3 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary/5 transition">
-              Learn More
-            </button>
-          </div>
         </div>
 
         <div className="relative h-96 md:h-full min-h-96">
