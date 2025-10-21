@@ -11,6 +11,7 @@ export function Hero() {
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 text-center space-y-6">
+        <p className="text-lg md:text-xl text-amber-300 font-semibold tracking-wide">The Peak of High Life</p>
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight text-balance">
           Modern Living Redefined
         </h1>

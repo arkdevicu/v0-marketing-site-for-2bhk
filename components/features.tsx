@@ -1,7 +1,7 @@
 const features = [
   {
     title: "Location",
-    description: "AMEENPUR",
+    description: "AMEENPUR, HYDERABAD, INDIA",
   },
   {
     title: "Approval",
