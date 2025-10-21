@@ -6,10 +6,19 @@ import { Menu, X } from "lucide-react"
 export function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
+  const handleLogoClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" })
+  }
+
   return (
     <header className="sticky top-0 z-50 bg-background border-b border-border">
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="text-2xl font-bold text-primary">EVEREST</div>
+        <button
+          onClick={handleLogoClick}
+          className="text-2xl font-bold text-primary hover:opacity-80 transition cursor-pointer bg-none border-none p-0"
+        >
+          EVEREST
+        </button>
 
         <nav className="hidden md:flex gap-8">
           <a href="#features" className="text-foreground hover:text-primary transition">
