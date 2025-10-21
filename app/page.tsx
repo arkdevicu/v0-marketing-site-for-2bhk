@@ -12,8 +12,8 @@ export default function Home() {
       <Header />
       <Hero />
       <Features />
-      <PremiumCharges />
       <Amenities />
+      <PremiumCharges />
       <FloorPlan />
       <Footer />
     </main>
